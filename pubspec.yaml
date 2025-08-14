@@ -1,0 +1,33 @@
+name: diy_journey
+description: "DIY Journey Flutter app (onboarding) with PHP backend integration — simplified to launch directly to MainScreen."
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  http: ^1.5.0
+  shared_preferences: ^2.0.15
+  intl: ^0.20.2
+  # Optional packages (uncomment to use): geolocator, geocoding for location checks.
+  # geolocator: ^9.0.2
+  # geocoding: ^2.0.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+#    flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon/icon.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
